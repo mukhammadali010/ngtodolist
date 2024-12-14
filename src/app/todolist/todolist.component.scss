@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inpWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#inp{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px  solid black;
+    outline: none;
+    text-indent: 10px;
+}   
+.btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(81, 81, 216);
+    color: white;
+    font-size: 20px;
+
+}
+table{
+    width: 721px;
+   
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+table td , th{
+    text-align: start;
+    padding: 10px 0;
+
+}
+table tr{
+    border: 1px solid #c0bebe;
+    border-right: 0;
+    border-left: 0;
+}
+
+.trush{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
